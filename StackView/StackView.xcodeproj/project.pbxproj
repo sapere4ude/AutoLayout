@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9769D625D13D4030A02B6C47 /* Pods_StackView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA86286F47FEEAD89DEF629 /* Pods_StackView.framework */; };
 		B77570D7263E3CAF008D2BBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77570D6263E3CAF008D2BBE /* AppDelegate.swift */; };
 		B77570D9263E3CAF008D2BBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77570D8263E3CAF008D2BBE /* SceneDelegate.swift */; };
 		B77570DB263E3CAF008D2BBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77570DA263E3CAF008D2BBE /* ViewController.swift */; };
 		B77570DE263E3CAF008D2BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77570DC263E3CAF008D2BBE /* Main.storyboard */; };
 		B77570E0263E3CB0008D2BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B77570DF263E3CB0008D2BBE /* Assets.xcassets */; };
 		B77570E3263E3CB0008D2BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B77570E1263E3CB0008D2BBE /* LaunchScreen.storyboard */; };
+		B77570EB263ED963008D2BBE /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77570EA263ED963008D2BBE /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2EA86286F47FEEAD89DEF629 /* Pods_StackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		449E6122F8CC761F26495891 /* Pods-StackView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackView.debug.xcconfig"; path = "Target Support Files/Pods-StackView/Pods-StackView.debug.xcconfig"; sourceTree = "<group>"; };
+		B07522BF77EB8572D52EB79E /* Pods-StackView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StackView.release.xcconfig"; path = "Target Support Files/Pods-StackView/Pods-StackView.release.xcconfig"; sourceTree = "<group>"; };
 		B77570D3263E3CAF008D2BBE /* StackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B77570D6263E3CAF008D2BBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B77570D8263E3CAF008D2BBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		B77570DF263E3CB0008D2BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B77570E2263E3CB0008D2BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B77570E4263E3CB0008D2BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B77570EA263ED963008D2BBE /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9769D625D13D4030A02B6C47 /* Pods_StackView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09584B015D3F4531AA39E43E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EA86286F47FEEAD89DEF629 /* Pods_StackView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		572D2C16E2898A6FA668824C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				449E6122F8CC761F26495891 /* Pods-StackView.debug.xcconfig */,
+				B07522BF77EB8572D52EB79E /* Pods-StackView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B77570CA263E3CAF008D2BBE = {
 			isa = PBXGroup;
 			children = (
 				B77570D5263E3CAF008D2BBE /* StackView */,
 				B77570D4263E3CAF008D2BBE /* Products */,
+				572D2C16E2898A6FA668824C /* Pods */,
+				09584B015D3F4531AA39E43E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +87,7 @@
 				B77570D8263E3CAF008D2BBE /* SceneDelegate.swift */,
 				B77570DA263E3CAF008D2BBE /* ViewController.swift */,
 				B77570DC263E3CAF008D2BBE /* Main.storyboard */,
+				B77570EA263ED963008D2BBE /* CircleButton.swift */,
 				B77570DF263E3CB0008D2BBE /* Assets.xcassets */,
 				B77570E1263E3CB0008D2BBE /* LaunchScreen.storyboard */,
 				B77570E4263E3CB0008D2BBE /* Info.plist */,
@@ -74,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B77570E7263E3CB0008D2BBE /* Build configuration list for PBXNativeTarget "StackView" */;
 			buildPhases = (
+				6C3202113218E60024AADAD9 /* [CP] Check Pods Manifest.lock */,
 				B77570CF263E3CAF008D2BBE /* Sources */,
 				B77570D0263E3CAF008D2BBE /* Frameworks */,
 				B77570D1263E3CAF008D2BBE /* Resources */,
@@ -132,6 +161,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C3202113218E60024AADAD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StackView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B77570CF263E3CAF008D2BBE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +194,7 @@
 				B77570DB263E3CAF008D2BBE /* ViewController.swift in Sources */,
 				B77570D7263E3CAF008D2BBE /* AppDelegate.swift in Sources */,
 				B77570D9263E3CAF008D2BBE /* SceneDelegate.swift in Sources */,
+				B77570EB263ED963008D2BBE /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +338,7 @@
 		};
 		B77570E8263E3CB0008D2BBE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449E6122F8CC761F26495891 /* Pods-StackView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +358,7 @@
 		};
 		B77570E9263E3CB0008D2BBE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07522BF77EB8572D52EB79E /* Pods-StackView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
