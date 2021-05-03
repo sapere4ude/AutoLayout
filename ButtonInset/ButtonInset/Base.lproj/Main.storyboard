@@ -70,12 +70,44 @@
             </objects>
             <point key="canvasLocation" x="95.652173913043484" y="795.53571428571422"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="eL4-iG-R3w">
+            <objects>
+                <viewController id="cP3-Ug-POm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rzg-2a-Kyc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K64-eE-0NS">
+                                <rect key="frame" x="121" y="418" width="172" height="60"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <inset key="contentEdgeInsets" minX="10" minY="5" maxX="20" maxY="5"/>
+                                <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="-20" maxY="0.0"/>
+                                <state key="normal" title="Button Text" image="home50x50"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="oJd-ko-csd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="K64-eE-0NS" firstAttribute="centerX" secondItem="rzg-2a-Kyc" secondAttribute="centerX" id="Exo-bY-inx"/>
+                            <constraint firstItem="K64-eE-0NS" firstAttribute="centerY" secondItem="rzg-2a-Kyc" secondAttribute="centerY" id="dcS-rG-mio"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2aF-ug-teZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100.00000000000001" y="1459.8214285714284"/>
+        </scene>
     </scenes>
     <resources>
         <image name="home300.png" width="300" height="300"/>
+        <image name="home50x50" width="50" height="50"/>
         <image name="home50x50.png" width="50" height="50"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
